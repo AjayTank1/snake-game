@@ -1,0 +1,24 @@
+.cell {
+	min-height: 40px;
+	min-width: 40px;
+	max-height:40px;
+	max-width: 40px;
+}
+
+.darkCell {
+	background-color : black;
+}
+
+.eatCell {
+	background-color : purple;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.board {
+	display: inline-block;
+	border-style: solid;
+}
